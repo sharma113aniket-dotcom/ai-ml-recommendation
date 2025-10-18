@@ -1,0 +1,14 @@
+fastapi
+uvicorn[standard]
+pydantic
+pandas
+numpy
+scikit-learn
+sentence-transformers
+transformers
+langchain
+faiss-cpu
+torch
+torchvision
+Pillow
+python-multipart
