@@ -2,7 +2,7 @@ from fastapi import FastAPI, UploadFile, File, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 import uvicorn
-from recommender import Recommender
+from app.recommender import Recommender
 from cv_model import CVModel
 import os
 
